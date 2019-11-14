@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+  
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  padding-top: 2%;
+  padding-left: 2%;
+  background-color: #fffde7;
+}
+
+header {
+  background-color: antiquewhite;
+  padding: 1% 0 1% 15%;
+}
+
+aside {
+  float: left;
+  background-color: #e8eaf6;
+  height: 100vh;
+  width: 10%;
+  text-align: center;
+}
+
+nav {
+  padding-top: 10%;
+}
+
+article {
+  margin-left: 15%;
+  margin-top: 5%;
+}
+
+.red-color {
+  color: red;
+}
