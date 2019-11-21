@@ -1,0 +1,22 @@
+.content {
+  background-color: goldenrod;
+  display: block;
+  height: 80vh;
+  padding: 1% 0;
+  overflow-y: scroll;
+}
+
+.fixed-block {
+  position: fixed;
+}
+
+.absolute-block {
+  position: absolute;
+  top: 100px;
+  right: 0;
+}
+
+.relative-block {
+  position: relative;
+  top: 75%;
+}
