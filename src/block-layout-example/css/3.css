@@ -1,0 +1,28 @@
+.float-wrapper {
+  margin-left: 3%;
+}
+
+.float {
+  float: left;
+  position: relative;
+  background-color: whitesmoke;
+  width: 20%;
+  height: 100px;
+  margin: 1%;
+  padding: 1%;
+  border: 1px solid black;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.float:hover {
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.digit {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  color: darkslategray;
+}

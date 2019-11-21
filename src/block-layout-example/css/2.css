@@ -1,0 +1,33 @@
+#abs {
+  background: #FFC0C0;
+  margin-left: 100px;
+}
+
+#abs span {
+  background: #C0FFC0;
+  height: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.fixed-block {
+  position: fixed;
+  top: 50px;
+  right: 100px;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
+}
+
+.relative-block {
+  position: relative;
+}
+
+.absolute-block {
+  position: absolute;
+  left: 25%;
+  bottom: -20px;
+  height: 100px;
+  background-color: orange;
+}
