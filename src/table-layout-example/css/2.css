@@ -1,0 +1,54 @@
+#id-selector {
+  color: orchid;
+  font-weight: 600;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+}
+
+.important-info {
+  color: blue;
+}
+
+[data-custom-attr] {
+  color: indigo;
+  font-weight: 700;
+  font-size: 24px;
+  margin-top: 15px;
+}
+
+#info .important-info {
+  background-color: royalblue !important;
+  color: white;
+}
+
+.third {
+  font-size: 2em;
+  color: brown
+}
+
+.third#first {
+  color: grey;
+}
+
+.third#second {
+  font-size: 1.5em;
+}
+
+
+.container {
+  width: 100%;
+  border: 1px solid black;
+  margin-top: 20px;
+}
+
+.container :first-child {
+  background-color: cadetblue;
+}
+
+.container :last-child {
+  background-color: lightslategray;
+}
+
+.container .inside-second {
+  font-size: 1.2em;
+}
