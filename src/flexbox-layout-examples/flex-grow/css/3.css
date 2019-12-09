@@ -1,0 +1,47 @@
+.flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.flex-item {
+  height: 100px;
+}
+
+.red-bg {
+  flex-grow: 1;
+  background-color: red;
+}
+
+.green-bg {
+  flex-grow: 2;
+  background-color: green;
+}
+
+.violet-bg {
+  flex-grow: 3;
+  background-color: blueviolet;
+}
+
+
+ul {
+  display: flex;
+  margin: 5px;
+  list-style-type: none;
+}
+
+li {
+  flex-grow: 1;
+  padding: 5px;
+  margin-right: 10px;
+  background-color: lightskyblue;
+}
+
+li :last-child {
+  margin-right: 0;
+}
