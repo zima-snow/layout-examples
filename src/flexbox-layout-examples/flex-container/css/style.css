@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  height: 200px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.flex-item {
+  width: 250px;
+  height: 100px;
+}
+
+.red-bg {
+  background-color: red;
+}
+
+.green-bg {
+  background-color: green;
+}
+
+.violet-bg {
+  background-color: blueviolet;
+}
+
+.orange-bg {
+  background-color: orange;
+}
+
+#vanished-block {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  .flex-container {
+    width: 98%;
+    background-color: lightsteelblue;
+  }
+
+  #vanished-block {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+
+  #vanished-block img, #vanished-block :last-child {
+    margin: auto;
+  }
+}

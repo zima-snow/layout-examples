@@ -1,0 +1,38 @@
+#content .inside-table {
+  width: 100%;
+  height: 50%;
+  border-collapse: collapse;
+  border: 2px solid goldenrod;
+}
+
+#content .inside-table:last-child {
+  border-bottom: 4px dotted gray;
+}
+
+.inside-table th {
+  border: 1px solid black;
+  border-bottom: 2px double black;
+  vertical-align: top;
+  background-color: burlywood;
+}
+
+.inside-table td {
+  border: 1px solid black;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.inside-table td:hover {
+  color: indianred;
+  cursor: wait;
+}
+
+.inside-table .even {
+  background-color: khaki;
+}
+
+#info div:hover {
+  position: absolute;
+  cursor: pointer;
+  opacity: 0;
+}

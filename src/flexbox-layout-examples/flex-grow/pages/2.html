@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Flex-grow example</title>
+   <meta charset="utf-8">
+   <link rel="stylesheet" type="text/css" href="../css/default.css" />
+   <link rel="stylesheet" type="text/css" href="../css/2.css" />
+ </head>
+ <body>
+  <main>
+    <section class="col">
+      <h2>Small text:</h2>
+    </section>
+    <aside class="col">
+      <h2>There is very very very (or not) very very (oh, stop it, please) very very long text</h2>
+    </aside>
+  </main>
+
+  <ol>
+    <li>width section: <span></span> </li>
+    <li>width aside: <span></span></li>
+  </ol>
+
+  <div id="next-block">
+    <a href="./3.html">Next</a>
+    <a href="../index.html">Main</a>
+  </div>
+
+  <script>
+    const getSize = () => {
+      let n = 0;
+      for (let node of document.querySelectorAll('.col')) {
+        document.querySelectorAll('span')[n++].textContent = `${node.getBoundingClientRect().width}px`;
+      }
+    };
+
+    window.onresize = (event) => {
+      getSize();
+    };
+
+    getSize();
+  </script>
+ </body> 
+</html>

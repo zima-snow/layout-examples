@@ -1,0 +1,16 @@
+main {
+  display: flex;
+  max-width: 900px;
+}
+
+section {
+  flex-grow: 2;
+}
+
+aside {
+  flex-grow: 1;
+}
+
+ol {
+  margin-top: 50px;
+}

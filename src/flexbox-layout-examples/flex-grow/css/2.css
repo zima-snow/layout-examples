@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  max-width: 900px;
+}
+
+section {
+  flex-grow: 2;
+  flex-basis: 400px;
+}
+
+aside {
+  flex-grow: 1;
+  flex-basis: 200px;
+}
+
+ol {
+  margin-top: 50px;
+}

@@ -1,0 +1,29 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 10px;
+  border: 5px solid red;
+  
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+}
+
+.flex1 {
+  flex: 1 0.1 150px;
+}
+
+.flex2 {
+  flex: 1 0.2 200px;
+} 
+
+.flex3 {
+  flex: 1 0.3 300px;
+}
