@@ -1,0 +1,60 @@
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5% 2% 0 2%;
+  padding: 2%;
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: greenyellow;
+}
+
+.flex-item {
+  background: violet;
+  border: 5px solid blueviolet;
+  width: 200px;
+  height: 300px;
+  
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin: 15px;
+}
+
+.flex-couple-item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 1;
+}
+
+#cat1 {
+  background: url("https://i.pinimg.com/474x/12/fe/19/12fe19c628f6e4727381a1530799a095.jpg") 100% 100% no-repeat;
+  background-size: cover;
+}
+
+#cat2 {
+  background: url("https://i.ytimg.com/vi/lkQ0LDx9jHs/maxresdefault.jpg") 50% 50% no-repeat;
+  background-size: cover;
+}
+
+#cat3 {
+  background: url("https://icdn.lenta.ru/images/2019/11/01/13/20191101130724350/square_320_b6db85a4300596c93045d977081768d1.png") 75% 100% no-repeat;
+  background-size: cover;
+}
+
+#cat4 {
+  background: url("https://i.pinimg.com/564x/0c/ec/ac/0cecace3cbd6b6dbd9731a1227062605.jpg") 100% 100% no-repeat;
+  background-size: cover;
+}
+
+@media screen and (max-width: 1100px) {
+  .flex-couple-item {
+    justify-content: space-evenly;
+  }
+}
